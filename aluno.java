@@ -5,7 +5,7 @@ public class aluno {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Digite a matrícula:");
 
-    int matricula = scanner.nextInt();
+    int matricula = scanner.nextInt(); //alterado
 
     System.out.print("Digite o nome do aluno: ");
     scanner.nextLine(); // Consumir a quebra de linha pendente
