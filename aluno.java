@@ -18,7 +18,6 @@ public class aluno {
     int nota2 = scanner.nextInt();
 
     double notaFinal = (nota1 + nota2) / 2;
-    System.out.println("Resultado: " + notaFinal);
 
     if (notaFinal >= 6) {
       System.out.println("Aprovado");
@@ -26,7 +25,10 @@ public class aluno {
       System.out.println("Reprovado");
     }
 
+    System.out.println("Matricula: " + matricula);
     System.out.println("Nome: " + nome);
+    System.out.println("Nota Final: " + notaFinal);
+    System.out.println("Resultado: " + notaFinal);
 
     scanner.close();
   }
