@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class aluno {
+public class alunoVet {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Digite a matrícula:");
 
-    int matricula = scanner.nextInt(); // alterado
+    int matricula = scanner.nextInt();
 
     System.out.print("Digite o nome do aluno: ");
     scanner.nextLine(); // Consumir a quebra de linha pendente
@@ -20,9 +20,9 @@ public class aluno {
     double notaFinal = (nota1 + nota2) / 2;
 
     if (notaFinal >= 6) {
-      System.out.println("Aprovado(X)");
+      System.out.println("Aprovado");
     } else if (notaFinal < 6) {
-      System.out.println("Reprovado(X)");
+      System.out.println("Reprovado");
     }
 
     System.out.println("Matricula: " + matricula);
@@ -31,5 +31,6 @@ public class aluno {
     System.out.println("Resultado: " + notaFinal);
 
     scanner.close();
+
   }
 }
